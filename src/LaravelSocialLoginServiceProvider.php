@@ -2,9 +2,9 @@
 
 namespace lukasyelle\LaravelSocialLogin;
 
+use lukasyelle\LaravelSocialLogin\Commands\LaravelSocialLoginCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use lukasyelle\LaravelSocialLogin\Commands\LaravelSocialLoginCommand;
 
 class LaravelSocialLoginServiceProvider extends PackageServiceProvider
 {

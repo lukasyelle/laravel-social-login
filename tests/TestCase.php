@@ -3,8 +3,8 @@
 namespace lukasyelle\LaravelSocialLogin\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use lukasyelle\LaravelSocialLogin\LaravelSocialLoginServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
