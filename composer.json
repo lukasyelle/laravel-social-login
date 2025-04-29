@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "lukasyelle/laravel-social-login",
+    "description": "Social login scaffolding for Laravel projects using Socialite",
     "keywords": [
-        ":vendor_name",
+        "Lukas Yelle",
         "laravel",
-        ":package_slug"
+        "laravel-social-login"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/lukasyelle/laravel-social-login",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Lukas Yelle",
+            "email": "lukas@yelle.software",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "lukasyelle\\LaravelSocialLogin\\": "src/",
+            "lukasyelle\\LaravelSocialLogin\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "lukasyelle\\LaravelSocialLogin\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "lukasyelle\\LaravelSocialLogin\\LaravelSocialLoginServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelSocialLogin": "lukasyelle\\LaravelSocialLogin\\Facades\\LaravelSocialLogin"
             }
         }
     },

@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace lukasyelle\LaravelSocialLogin\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelSocialLoginCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-social-login';
 
     public $description = 'My command';
 
